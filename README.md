@@ -23,9 +23,9 @@ Things to Edit in the Code
 --------------------------
 You probably have to change some things in the code to get this to work on your system. First, in the WcfDemo project edit the **WcfDemo.vb** file to change the file path for the WcfEmailer.exe appliciation. The **WcfEmailer.exe** program is located in the WcfEmailer\bin\Debug folder. 
 
-In the **WcfEmailer.vb** file in the WcfEmailer project, you will want to change the Email To address and the objSMTP.Host value to your mail server. Remember to recompile those projects before doing your testing.
+In the **WcfEmailer.vb** file in the WcfEmailer project, you will want to change the Email To address and the objSMTP.Host value to your mail server. Remember to recompile these projects before doing your testing.
 
-The WcfDemoHost.exe will display something like this if it is working:
+The **WcfDemoHost.exe** console application window will display something like this if it is working:
 
 ```
 The service is ready.
